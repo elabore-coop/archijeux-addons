@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_pos_session_tree_inherit_cash_start_and_end" model="ir.ui.view">
+            <field name="name">view pos session tree inherit cash start and end</field>
+            <field name="model">pos.session</field>
+            <field name="inherit_id" ref="point_of_sale.view_pos_session_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="state" position="after">
+                        <field name="cash_register_balance_start"/>
+                        <field name="cash_register_balance_end_real"/>
+                    </field>                      
+                </data>
+            </field>
+        </record>
+    </data>
+</odoo>
