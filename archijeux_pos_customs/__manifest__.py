@@ -3,7 +3,7 @@
 
 {
     "name": "archijeux_pos_customs",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.0.1",
     "author": "Elabore",
     "website": "https://elabore.coop",
     "maintainer": "Élabore",
@@ -13,7 +13,9 @@
     # any module necessary for this one to work correctly
     "depends": [
         "base",
-        "point_of_sale"
+        "point_of_sale",
+        "membership",
+        "membership_extension"
     ],
     "qweb": [],
     "external_dependencies": {
@@ -21,7 +23,8 @@
     },
     # always loaded
     "data": [
-        "views/pos_session_view.xml"
+        "views/pos_session_view.xml",
+        "views/res_partner_views.xml",        
     ],
     # only loaded in demonstration mode
     "demo": [],

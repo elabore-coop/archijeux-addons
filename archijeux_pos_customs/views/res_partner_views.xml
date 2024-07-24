@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_partner_form_inherit_others_info" model="ir.ui.view">
+            <field name="name">view partner form inherit others info</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='membership']" position="after">
+                    <page name="Others info" string="Others info">
+                        <group>
+                            <field name="request_newsletter"
+                                string="I want to receive the newsletter" />
+                            <field name="request_to_volunteer" string="I want to volunteer" />
+                        </group>
+                    </page>
+                </xpath>
+                <xpath expr="//page[@name='membership']" position="inside">
+                        <group string="Household" name="household" priority="1">
+                            <field name="children_number"
+                                string="Number of children in the household" />
+                            <field name="adults_number" string="Number of adults in the household" />
+                        </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
