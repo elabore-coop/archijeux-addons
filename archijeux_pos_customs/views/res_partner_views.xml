@@ -6,6 +6,10 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form" />
             <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position="replace">
+                    <field name="ref" string="Subcription number"
+                        attrs="{'invisible': [('membership_state', 'not in', ['invoiced', 'paid', 'free'])]}" />
+                </xpath>
                 <xpath expr="//page[@name='membership']" position="after">
                     <page name="Others info" string="Others info">
                         <group>
@@ -17,8 +21,7 @@
                 </xpath>
                 <xpath expr="//page[@name='membership']" position="inside">
                         <group string="Household" name="household" priority="1">
-                            <field name="children_number"
-                                string="Number of children in the household" />
+                            <field name="children_number" string="Number of children in the household" />
                             <field name="adults_number" string="Number of adults in the household" />
                         </group>
                 </xpath>
