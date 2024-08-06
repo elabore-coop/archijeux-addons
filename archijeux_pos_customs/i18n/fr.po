@@ -1,0 +1,213 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* archijeux_pos_customs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-06 15:30+0000\n"
+"PO-Revision-Date: 2024-08-06 15:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: archijeux_pos_customs
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid "Beneficiaries of the membership"
+msgstr "bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#: model:ir.model,name:archijeux_pos_customs.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Email"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__adults_number
+#: model:ir.model.fields,help:archijeux_pos_customs.field_res_users__adults_number
+msgid ""
+"For family memberships, enter the number of adults who will benefit from the"
+" membership."
+msgstr ""
+"Pour les adhésions Familles, indiquez le nombre de majeurs bénéficiaires de "
+"l'adhésion."
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__children_number
+#: model:ir.model.fields,help:archijeux_pos_customs.field_res_users__children_number
+msgid ""
+"For family memberships, enter the number of minors who will benefit from the"
+" membership."
+msgstr ""
+"Pour les adhésions Individuelles, indiquez le nombre de mineurs "
+"bénéficiaires de l'adhésion."
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Free member"
+msgstr "Je suis invité·e par un·e adhérent·e d'Archjeux"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "GUEST"
+msgstr "INVITATION"
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__request_newsletter
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__request_newsletter
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid "I want to receive the newsletter"
+msgstr "Je souhaite recevoir la lettre d'information"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "I want to receve the newsletter"
+msgstr "Je souhaite recevoir la lettre d'information"
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__request_to_volunteer
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__request_to_volunteer
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid "I want to volunteer"
+msgstr "Je souhaite devenir bénévole"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "IN CASE OF FAMILLY MEMBERSHIP"
+msgstr "POUR LES ADHÉSIONS FAMILLE"
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__other_beneficiaries_names
+#: model:ir.model.fields,help:archijeux_pos_customs.field_res_users__other_beneficiaries_names
+msgid ""
+"In the case of a family membership, indicate the names of the other "
+"beneficiaries of the membership"
+msgstr ""
+"Dans le cas des adhésions famille, indiquez le nom des autres bénéficiaires "
+"(excepté vous-même)"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Mobile"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__other_beneficiaries_names
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__other_beneficiaries_names
+#, python-format
+msgid "Names of other beneficiaries"
+msgstr "Noms des autres bénéficiaires"
+
+#. module: archijeux_pos_customs
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid ""
+"Names of others beneficiaries of the membership (except yourself and in case"
+" of family membership)"
+msgstr "Noms des autres bénéficiaires de l'adhésion (excepté vous-même)"
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__adults_number
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__adults_number
+msgid "Number of adults in the household"
+msgstr "Nombre de majeurs dans le foyer"
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__children_number
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__children_number
+msgid "Number of children in the household"
+msgstr "Nombre de mineurs dans le foyer"
+
+#. module: archijeux_pos_customs
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid "Number of major beneficiaries"
+msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Number of majors"
+msgstr "Nombre de majeurs"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Number of majors who benefit from membership"
+msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
+
+#. module: archijeux_pos_customs
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid "Number of minor beneficiaries"
+msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Number of minors"
+msgstr "Nombre de mineurs"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Number of minors who benefit from membership"
+msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "OTHERS INFORMATION"
+msgstr "AUTRES INFORMATIONS"
+
+#. module: archijeux_pos_customs
+#: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
+msgid "Others info"
+msgstr "Autres informations"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "PEOPLE WHO WILL BENEFIT FROM THE MEMBERSHIP"
+msgstr "PERSONNES BÉNÉFICIAIRES DE L'ADHÉSION"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
+#, python-format
+msgid "Request to volunteer"
+msgstr "Je souhaite devenir bénévole"
+

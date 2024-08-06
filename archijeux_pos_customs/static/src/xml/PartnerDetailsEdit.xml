@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template" xml:space="preserve">
+    <t
+        t-name="PartnerDetailsEdit"
+        t-inherit="point_of_sale.PartnerDetailsEdit"
+        t-inherit-mode="extension"
+        owl="1"
+    >
+        <xpath expr="//input[@name='mobile']/.." position="after">
+            <br />
+            <h1 class="separator_archijeux_custom">OTHERS INFORMATION</h1>
+            <!-- Request to volunteer -->
+            <div class="partner-detail partner-detail-request-volunteer">
+                <span class="label">Request to volunteer</span>
+                    <input
+                        type="checkbox"
+                        class="detail o_checkbox checkbox request-volunteer"
+                        name="request_to_volunteer"
+                        t-att-checked="changes.request_to_volunteer ? 'checked' : null"
+                        t-on-change="captureChange"
+                        t-model="changes.request_to_volunteer"
+                    />
+            </div>
+            <!-- I want to receve the newsletter -->
+            <div class="partner-detail partner-detail-request_newsletter">
+                <span class="label">I want to receve the newsletter</span>
+                    <input
+                        type="checkbox"
+                        class="detail o_checkbox checkbox request_newsletter"
+                        name="request_newsletter"
+                        t-att-checked="changes.request_newsletter ? 'checked' : null"
+                        t-on-change="captureChange"
+                        t-model="changes.request_newsletter"
+                    />
+            </div>
+            <!-- Number of adults who benefit from membership -->
+            <br />
+            <h1 class="separator_archijeux_custom">PEOPLE WHO WILL BENEFIT FROM THE MEMBERSHIP</h1>
+            <div class="partner-detail partner-detail-major">
+                <span class="label">Number of majors who benefit from membership</span>
+                    <input
+                        class="detail adults_number"
+                        name="adults_number"
+                        t-on-change="captureChange"
+                        t-model="changes.adults_number"
+                        placeholder="Number of majors"
+                    />
+            </div>
+            <!-- Number of minors who benefit from membership -->
+            <div class="partner-detail partner-detail-minor">
+                <span class="label">Number of minors who benefit from membership</span>
+                    <input
+                        class="detail children_number"
+                        name="children_number"
+                        t-on-change="captureChange"
+                        t-model="changes.children_number"
+                        placeholder="Number of minors"
+                    />
+            </div>
+            <!-- Names of other beneficiaries -->
+            <br />
+            <h1 class="separator_archijeux_custom">IN CASE OF FAMILLY MEMBERSHIP</h1>
+            <div class="partner-detail partner-detail-minor">
+                <span class="label">Names of other beneficiaries</span>
+                    <input
+                        class="detail other_beneficiaries_names"
+                        name="other_beneficiaries_names"
+                        t-on-change="captureChange"
+                        t-model="changes.other_beneficiaries_names"
+                        placeholder="Names of other beneficiaries"
+                    />
+            </div>
+             <!-- Free member -->
+             <br />
+             <h1 class="separator_archijeux_custom">GUEST</h1>
+             <div class="partner-detail partner-detail-minor">
+                 <span class="label">Free member</span>
+                    <input
+                        type="checkbox"
+                        class="detail o_checkbox checkbox free_member"
+                        name="free_member"
+                        t-att-checked="changes.free_member ? 'checked' : null"
+                        t-on-change="captureChange"
+                        t-model="changes.free_member"
+                />
+             </div>
+        </xpath>
+
+        <!-- Moves somes fields from left to right -->
+        <!-- Moves Email from left to right -->
+        <xpath expr="//select[@name='country_id']/.." position="after" >
+            <div class="partner-detail">
+                <span class="label">Email</span>
+                <input class="detail" name="email" type="email" t-model="changes.email" t-on-change="captureChange" />
+            </div>
+        </xpath>
+        <xpath expr="//div[hasclass('partner-details-right')]//input[@name='email']/.." position="replace" />
+        <!-- Moves Phone from left to right -->
+        <xpath expr="//select[@name='country_id']/.." position="after" >
+            <div class="partner-detail">
+                <span class="label">Phone</span>
+                <input class="detail" name="phone" type="tel" t-model="changes.phone" t-on-change="captureChange" />
+            </div>
+        </xpath>
+        <xpath expr="//div[hasclass('partner-details-right')]//input[@name='phone']/.." position="replace" />
+        <!-- Moves Mobile from left to right -->
+        <xpath expr="//select[@name='country_id']/.." position="after" >
+            <div class="partner-detail">
+                <span class="label">Mobile</span>
+                <input class="detail" name="mobile" type="tel" t-model="changes.mobile" t-on-change="captureChange" />
+            </div>
+        </xpath>
+        <xpath expr="//div[hasclass('partner-details-right')]//input[@name='mobile']/.." position="replace" />
+
+
+        <!-- Removes unecessary fields -->
+        <xpath expr="//select[@name='state_id']/.." position="replace" />
+        <xpath expr="//input[@name='vat']/.." position="replace" />
+        <xpath expr="//input[@name='barcode']/.." position="replace" />
+        <xpath expr="//select[@name='lang']/.." position="replace" />
+    </t>
+</templates>

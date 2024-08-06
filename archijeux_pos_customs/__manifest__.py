@@ -3,7 +3,7 @@
 
 {
     "name": "archijeux_pos_customs",
-    "version": "16.0.1.0.1",
+    "version": "16.0.1.0.2",
     "author": "Elabore",
     "website": "https://elabore.coop",
     "maintainer": "Élabore",
@@ -17,22 +17,17 @@
         "membership",
         "membership_extension"
     ],
-    "qweb": [],
-    "external_dependencies": {
-        "python": [],
-    },
     # always loaded
     "data": [
         "views/pos_session_view.xml",
         "views/res_partner_views.xml",        
     ],
-    # only loaded in demonstration mode
-    "demo": [],
-    "js": [],
-    "css": [],
-    "installable": True,
-    # Install this module automatically if all dependency have been previously
-    # and independently installed.  Used for synergetic or glue modules.
-    "auto_install": False,
+    "assets": {
+        "point_of_sale.assets": [
+            "archijeux_pos_customs/static/src/css/pos_archijeux_custom.css",
+            "archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml",
+            "archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js",
+        ]
+    },
     "application": False,
 }

@@ -1,0 +1,21 @@
+/**
+ *  Main css of archijeux_customs addon.
+ */
+
+.pos .partnerlist-screen .partner-detail > .label {
+    font-weight: bold;
+    display: inline-block;
+    width: 225px;
+    text-align: right;
+    margin-right: 8px;
+  }
+
+  
+.partner-details.edit .partner-details-box.clearfix {
+    margin-left: 6%;
+}
+
+
+/* .separator_archijeux_custom {
+    font-size: 28px;
+} */
