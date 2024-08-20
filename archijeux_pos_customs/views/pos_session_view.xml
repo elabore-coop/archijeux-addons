@@ -10,6 +10,8 @@
                     <field name="state" position="after">
                         <field name="cash_register_balance_start"/>
                         <field name="cash_register_balance_end_real"/>
+                        <field name="number_of_major_visitors"/>
+                        <field name="number_of_minor_visitors"/>
                     </field>
                 </data>
             </field>

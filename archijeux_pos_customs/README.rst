@@ -9,6 +9,7 @@ Description
 
 - add partner fields and add them to the customer form in POS
 - make required some fields in customer form in POS
+- add mumber of visitor in Close PopUp
 
 Installation
 ============

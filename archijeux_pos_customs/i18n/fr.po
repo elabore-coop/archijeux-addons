@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-19 11:01+0000\n"
-"PO-Revision-Date: 2024-08-19 11:01+0000\n"
+"POT-Creation-Date: 2024-09-09 11:53+0000\n"
+"PO-Revision-Date: 2024-09-09 11:53+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,9 +16,32 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/ClosePosPopup.js:0
+#, python-format
+msgid ""
+"An error has occurred when trying to close the session.\n"
+"You will be redirected to the back-end to manually close the session."
+msgstr ""
+
+#. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Beneficiaries of the membership"
 msgstr "Bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/ClosePosPopup.js:0
+#, python-format
+msgid "Cannot close the session when offline."
+msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/ClosePosPopup.js:0
+#, python-format
+msgid "Closing session error"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model,name:archijeux_pos_customs.model_res_partner
@@ -127,6 +150,20 @@ msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Majors"
+msgstr "Majeurs"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Minors"
+msgstr "mineurs"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Mobile"
@@ -150,6 +187,27 @@ msgid ""
 msgstr "Noms des autres bénéficiaires de l'adhésion (excepté vous-même)"
 
 #. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Nb of majors"
+msgstr "Nb de majeurs"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Nb of minors"
+msgstr "Nb de mineurs"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/ClosePosPopup.js:0
+#, python-format
+msgid "Network Error"
+msgstr ""
+
+#. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__adults_number
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__adults_number
 msgid "Number of adults in the household"
@@ -169,7 +227,7 @@ msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__number_of_major_visitors
 msgid "Number of major visitors"
-msgstr ""
+msgstr "Nombre de visiteurs majeurs"
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -193,7 +251,7 @@ msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__number_of_minor_visitors
 msgid "Number of minor visitors"
-msgstr ""
+msgstr "Nombre de visiteurs mineurs"
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -208,6 +266,13 @@ msgstr "Nombre de mineurs"
 #, python-format
 msgid "Number of minors who benefit from membership"
 msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Number of visitors"
+msgstr "Nombre de visiteurs"
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -247,3 +312,9 @@ msgstr "Session du point de vente"
 msgid "Request to volunteer"
 msgstr "Je souhaite devenir bénévole"
 
+#. module: archijeux_pos_customs
+#. odoo-python
+#: code:addons/archijeux_pos_customs/models/pos_session.py:0
+#, python-format
+msgid "This session is already closed."
+msgstr ""

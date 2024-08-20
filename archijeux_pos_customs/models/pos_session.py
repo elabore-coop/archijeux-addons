@@ -18,3 +18,17 @@ class PosSession(models.Model):
             "free_member",
         ]
         return res
+
+    #overwrite
+    #TODO : attention update_closing_control_state_session est aussi surchargé dans le module pos_daily_sales_reports, à prendre en compte si le module est installé
+    def update_closing_control_state_session(self, notes, number_of_major_visitors = None, number_of_minor_visitors = None):
+        # Prevent closing the session again if it was already closed
+        if self.state == 'closed':
+            raise UserError(_('This session is already closed.'))
+        # Prevent the session to be opened again.
+        self.write({'state': 'closing_control',
+                    'stop_at': fields.Datetime.now(),
+                    'number_of_major_visitors': number_of_major_visitors,
+                    'number_of_minor_visitors': number_of_minor_visitors,
+                    })
+        self._post_cash_details_message('Closing', self.cash_register_difference, notes)

@@ -3,7 +3,7 @@
 
 {
     "name": "archijeux_pos_customs",
-    "version": "16.0.1.0.3",
+    "version": "16.0.1.0.4",
     "author": "Elabore",
     "website": "https://elabore.coop",
     "maintainer": "Élabore",
@@ -20,13 +20,15 @@
     # always loaded
     "data": [
         "views/pos_session_view.xml",
-        "views/res_partner_views.xml",        
+        "views/res_partner_views.xml",
     ],
     "assets": {
         "point_of_sale.assets": [
             "archijeux_pos_customs/static/src/css/pos_archijeux_custom.css",
             "archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml",
             "archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js",
+            "archijeux_pos_customs/static/src/js/ClosePosPopup.js",
+            "archijeux_pos_customs/static/src/xml/ClosePosPopup.xml",
         ]
     },
     "application": False,
