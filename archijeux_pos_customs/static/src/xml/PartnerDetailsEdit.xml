@@ -39,7 +39,7 @@
             <div class="partner-detail partner-detail-major">
                 <span class="label">Number of majors who benefit from membership</span>
                     <input
-                        class="detail adults_number"
+                        class="detail adults_number required"
                         name="adults_number"
                         t-on-change="captureChange"
                         t-model="changes.adults_number"
@@ -50,7 +50,7 @@
             <div class="partner-detail partner-detail-minor">
                 <span class="label">Number of minors who benefit from membership</span>
                     <input
-                        class="detail children_number"
+                        class="detail children_number required"
                         name="children_number"
                         t-on-change="captureChange"
                         t-model="changes.children_number"
@@ -91,7 +91,7 @@
         <xpath expr="//select[@name='country_id']/.." position="after" >
             <div class="partner-detail">
                 <span class="label">Email</span>
-                <input class="detail" name="email" type="email" t-model="changes.email" t-on-change="captureChange" />
+                <input class="detail required" name="email" type="email" t-model="changes.email" t-on-change="captureChange"/>
             </div>
         </xpath>
         <xpath expr="//div[hasclass('partner-details-right')]//input[@name='email']/.." position="replace" />
@@ -112,6 +112,14 @@
         </xpath>
         <xpath expr="//div[hasclass('partner-details-right')]//input[@name='mobile']/.." position="replace" />
 
+
+        <!-- add required class to zip and city fields -->
+        <xpath expr="//input[@name='city']/.." position="attributes" >
+            <attribute name="id">required</attribute>
+        </xpath>
+        <xpath expr="//input[@name='zip']/.." position="attributes" >
+            <attribute name="id">required</attribute>
+        </xpath>
 
         <!-- Removes unecessary fields -->
         <xpath expr="//select[@name='state_id']/.." position="replace" />

@@ -4,6 +4,12 @@ archijeux_pos_customs
 
 Customs dev and views for Archijeux POS
 
+Description
+===========
+
+- add partner fields and add them to the customer form in POS
+- make required some fields in customer form in POS
+
 Installation
 ============
 

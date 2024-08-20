@@ -9,13 +9,16 @@
     text-align: right;
     margin-right: 8px;
   }
-
   
 .partner-details.edit .partner-details-box.clearfix {
     margin-left: 6%;
 }
 
 
-/* .separator_archijeux_custom {
-    font-size: 28px;
-} */
+input.required {
+    background: rgb(210, 210, 255) !important;
+}
+
+div#required input{
+    background: rgb(210, 210, 255) !important;
+}

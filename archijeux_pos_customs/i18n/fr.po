@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 15:30+0000\n"
-"PO-Revision-Date: 2024-08-06 15:30+0000\n"
+"POT-Creation-Date: 2024-08-19 11:01+0000\n"
+"PO-Revision-Date: 2024-08-19 11:01+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Beneficiaries of the membership"
-msgstr "bénéficiaires de l'adhésion"
+msgstr "Bénéficiaires de l'adhésion"
 
 #. module: archijeux_pos_customs
 #: model:ir.model,name:archijeux_pos_customs.model_res_partner
@@ -31,6 +31,27 @@ msgstr ""
 #, python-format
 msgid "Email"
 msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js:0
+#, python-format
+msgid "Field City is required"
+msgstr "Le champ Ville est obligatoire"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js:0
+#, python-format
+msgid "Field Email is required"
+msgstr "Le champ Email est obligatoire"
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js:0
+#, python-format
+msgid "Field ZIP is required"
+msgstr "Le champ Code Postal est obligatoire"
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__adults_number
@@ -146,6 +167,11 @@ msgid "Number of major beneficiaries"
 msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
 
 #. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__number_of_major_visitors
+msgid "Number of major visitors"
+msgstr ""
+
+#. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
@@ -163,6 +189,11 @@ msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Number of minor beneficiaries"
 msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__number_of_minor_visitors
+msgid "Number of minor visitors"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -203,6 +234,11 @@ msgstr "PERSONNES BÉNÉFICIAIRES DE L'ADHÉSION"
 #, python-format
 msgid "Phone"
 msgstr "Téléphone"
+
+#. module: archijeux_pos_customs
+#: model:ir.model,name:archijeux_pos_customs.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Session du point de vente"
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
