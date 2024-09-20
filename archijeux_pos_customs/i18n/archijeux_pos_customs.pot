@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 11:53+0000\n"
-"PO-Revision-Date: 2024-09-09 11:53+0000\n"
+"POT-Creation-Date: 2024-09-20 07:39+0000\n"
+"PO-Revision-Date: 2024-09-20 07:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 #. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Beneficiaries of the membership"
-msgstr "Bénéficiaires de l'adhésion"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -60,21 +60,21 @@ msgstr ""
 #: code:addons/archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js:0
 #, python-format
 msgid "Field City is required"
-msgstr "Le champ Ville est obligatoire"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js:0
 #, python-format
 msgid "Field Email is required"
-msgstr "Le champ Email est obligatoire"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/js/PartnerDetailsEdit.js:0
 #, python-format
 msgid "Field ZIP is required"
-msgstr "Le champ Code Postal est obligatoire"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__adults_number
@@ -83,8 +83,6 @@ msgid ""
 "For family memberships, enter the number of adults who will benefit from the"
 " membership."
 msgstr ""
-"Pour les adhésions Familles, indiquez le nombre de majeurs bénéficiaires de "
-"l'adhésion."
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__children_number
@@ -93,50 +91,48 @@ msgid ""
 "For family memberships, enter the number of minors who will benefit from the"
 " membership."
 msgstr ""
-"Pour les adhésions Individuelles, indiquez le nombre de mineurs "
-"bénéficiaires de l'adhésion."
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Free member"
-msgstr "Je suis invité·e par un·e adhérent·e d'Archjeux"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "GUEST"
-msgstr "INVITATION"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__request_newsletter
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__request_newsletter
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "I want to receive the newsletter"
-msgstr "Je souhaite recevoir la lettre d'information"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "I want to receve the newsletter"
-msgstr "Je souhaite recevoir la lettre d'information"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__request_to_volunteer
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__request_to_volunteer
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "I want to volunteer"
-msgstr "Je souhaite devenir bénévole"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "IN CASE OF FAMILLY MEMBERSHIP"
-msgstr "POUR LES ADHÉSIONS FAMILLE"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,help:archijeux_pos_customs.field_res_partner__other_beneficiaries_names
@@ -145,22 +141,20 @@ msgid ""
 "In the case of a family membership, indicate the names of the other "
 "beneficiaries of the membership"
 msgstr ""
-"Dans le cas des adhésions famille, indiquez le nom des autres bénéficiaires "
-"(excepté vous-même)"
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
 #, python-format
 msgid "Majors"
-msgstr "Majeurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
 #, python-format
 msgid "Minors"
-msgstr "Mineurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -177,28 +171,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__other_beneficiaries_names
 #, python-format
 msgid "Names of other beneficiaries"
-msgstr "Noms des autres bénéficiaires"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid ""
 "Names of others beneficiaries of the membership (except yourself and in case"
 " of family membership)"
-msgstr "Noms des autres bénéficiaires de l'adhésion (excepté vous-même)"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
 #, python-format
 msgid "Nb of majors"
-msgstr "Nb de majeurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
 #, python-format
 msgid "Nb of minors"
-msgstr "Nb de mineurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -211,106 +205,106 @@ msgstr ""
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__adults_number
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__adults_number
 msgid "Number of adults in the household"
-msgstr "Nombre de majeurs dans le foyer"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_partner__children_number
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_res_users__children_number
 msgid "Number of children in the household"
-msgstr "Nombre de mineurs dans le foyer"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Number of major beneficiaries"
-msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__number_of_major_visitors
 msgid "Number of major visitors"
-msgstr "Nombre de visiteurs majeurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Number of majors"
-msgstr "Nombre de majeurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Number of majors who benefit from membership"
-msgstr "Nombre de majeurs bénéficiaires de l'adhésion (vous-même inclus)"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Number of minor beneficiaries"
-msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__number_of_minor_visitors
 msgid "Number of minor visitors"
-msgstr "Nombre de visiteurs mineurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Number of minors"
-msgstr "Nombre de mineurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Number of minors who benefit from membership"
-msgstr "Nombre de mineurs bénéficiaires de l'adhésion"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
 #, python-format
 msgid "Number of visitors"
-msgstr "Nombre de visiteurs"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "OTHERS INFORMATION"
-msgstr "AUTRES INFORMATIONS"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Others info"
-msgstr "Autres informations"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "PEOPLE WHO WILL BENEFIT FROM THE MEMBERSHIP"
-msgstr "PERSONNES BÉNÉFICIAIRES DE L'ADHÉSION"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Phone"
-msgstr "Téléphone"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #: model:ir.model,name:archijeux_pos_customs.model_pos_session
 msgid "Point of Sale Session"
-msgstr "Session du point de vente"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Request to volunteer"
-msgstr "Je souhaite devenir bénévole"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-python
