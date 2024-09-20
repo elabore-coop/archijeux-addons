@@ -1,5 +1,5 @@
-from odoo import fields, models
-
+from odoo import _, fields, models
+from odoo.exceptions import UserError
 
 class PosSession(models.Model):
     _inherit = "pos.session"

@@ -6,6 +6,17 @@
         t-inherit-mode="extension"
         owl="1"
     >
+        <!-- add required to name, firstname and lastname -->
+        <xpath expr="//input[@name='name']" position="attributes">
+            <attribute name="class">detail partner-name required</attribute>
+        </xpath>
+        <xpath expr="//input[@name='lastname']" position="attributes">
+            <attribute name="class">detail lastname person required</attribute>
+        </xpath>
+        <xpath expr="//input[@name='firstname']" position="attributes">
+            <attribute name="class">detail firstname person required</attribute>
+        </xpath>
+        
         <xpath expr="//input[@name='mobile']/.." position="after">
             <br />
             <h1 class="separator_archijeux_custom">OTHERS INFORMATION</h1>

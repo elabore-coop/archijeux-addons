@@ -3,7 +3,7 @@
 
 {
     "name": "archijeux_pos_customs",
-    "version": "16.0.1.0.4",
+    "version": "16.0.1.0.5",
     "author": "Elabore",
     "website": "https://elabore.coop",
     "maintainer": "Élabore",
@@ -15,7 +15,8 @@
         "base",
         "point_of_sale",
         "membership",
-        "membership_extension"
+        "membership_extension",
+        "pos_partner_firstname",
     ],
     # always loaded
     "data": [
