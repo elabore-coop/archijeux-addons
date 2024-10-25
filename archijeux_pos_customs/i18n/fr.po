@@ -318,3 +318,10 @@ msgstr "Je souhaite devenir bénévole"
 #, python-format
 msgid "This session is already closed."
 msgstr ""
+
+#. module: membership
+#: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__paid
+#: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__paid
+#: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__paid
+msgid "Paid Member"
+msgstr "Adhérent·e"

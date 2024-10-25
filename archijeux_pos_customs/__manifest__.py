@@ -3,7 +3,7 @@
 
 {
     "name": "archijeux_pos_customs",
-    "version": "16.0.1.0.7",
+    "version": "16.0.1.0.8",
     "author": "Elabore",
     "website": "https://elabore.coop",
     "maintainer": "Élabore",
