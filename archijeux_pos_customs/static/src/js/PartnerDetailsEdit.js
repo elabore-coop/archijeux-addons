@@ -14,7 +14,7 @@ odoo.define("archijeux_pos_customs.PartnerDetailsEdit", function (require) {
                     ...this.changes,
                     request_to_volunteer: this.props.partner.request_to_volunteer || false,
                     request_newsletter: this.props.partner.request_newsletter || false,
-                    adults_number: this.props.partner.adults_number || 0,
+                    adults_number: this.props.partner.adults_number || 1,
                     children_number: this.props.partner.children_number || 0,
                     other_beneficiaries_names: this.props.partner.other_beneficiaries_names || null,                    
                     free_member: this.props.partner.free_member || null,                    
