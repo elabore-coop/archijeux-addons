@@ -6,6 +6,7 @@ class PosSession(models.Model):
 
     number_of_major_visitors = fields.Integer('Number of major visitors')
     number_of_minor_visitors = fields.Integer('Number of minor visitors')
+    benevoles = fields.Char('Bénévoles qui ont tenu la caisse')
 
     def _loader_params_res_partner(self):
         res = super()._loader_params_res_partner()
@@ -21,7 +22,7 @@ class PosSession(models.Model):
 
     #overwrite
     #TODO : attention update_closing_control_state_session est aussi surchargé dans le module pos_daily_sales_reports, à prendre en compte si le module est installé
-    def update_closing_control_state_session(self, notes, number_of_major_visitors = None, number_of_minor_visitors = None):
+    def update_closing_control_state_session(self, notes, number_of_major_visitors = None, number_of_minor_visitors = None, benevoles = None):
         # Prevent closing the session again if it was already closed
         if self.state == 'closed':
             raise UserError(_('This session is already closed.'))
@@ -30,5 +31,6 @@ class PosSession(models.Model):
                     'stop_at': fields.Datetime.now(),
                     'number_of_major_visitors': number_of_major_visitors,
                     'number_of_minor_visitors': number_of_minor_visitors,
+                    'benevoles': benevoles,
                     })
         self._post_cash_details_message('Closing', self.cash_register_difference, notes)

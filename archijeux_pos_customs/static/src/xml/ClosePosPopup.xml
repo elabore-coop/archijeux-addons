@@ -14,7 +14,7 @@
                         <tr>
                             <th>Number of visitors</th>
                             <th/>
-                            <th style="width: 25%"/>
+                            <th style="width: 25%">Bénévoles</th>
                             <th style="width: 20%"/>
                         </tr>
                     </thead>
@@ -26,6 +26,15 @@
                                     name="number_of_major_visitors"
                                     placeholder="Nb of majors"
                                     t-model="state.number_of_major_visitors"
+                                />
+                            </td>
+                            <td style="text-align:left;">Noms des bénévoles qui ont tenu la caisse</td>
+                            <td class="flex" >
+                                <input style="width: 120px; padding-right: 0%; text-align:center;" 
+                                class="pos-input benevoles"
+                                name="benevoles"
+                                placeholder="Noms"
+                                t-model="state.benevoles"
                                 />
                             </td>
                         </tr>
