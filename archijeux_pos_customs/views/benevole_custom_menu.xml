@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo> 
+  <!-- MENUS POUR LE MANAGER DE COMPTOIR DE CHANGE-->
+    <menuitem name="Bénévole Archijeux"
+    id="benevole_archijeux_menu_root"
+    parent="base.menu_custom">
+        <!-- MENUS POS -->
+        <menuitem id="benevole_archijeux_pos" name="Bar" >
+            <menuitem id="benevole_archijeux_menu_pos_config" action="point_of_sale.action_pos_config_kanban"/>
+        </menuitem>
+        <!-- MENUS INVENTAIRE -->
+        <menuitem id="benevole_archijeux_calendar" name="Calendrier" >
+            <menuitem id="benevole_archijeux_menu_calendar" action="calendar.action_calendar_event" />
+        </menuitem>
+    </menuitem>
+</odoo>

@@ -25,9 +25,36 @@ msgid ""
 msgstr ""
 
 #. module: archijeux_pos_customs
+#: model:ir.ui.menu,name:archijeux_pos_customs.benevole_archijeux_pos
+msgid "Bar"
+msgstr ""
+
+#. module: archijeux_pos_customs
 #: model_terms:ir.ui.view,arch_db:archijeux_pos_customs.view_partner_form_inherit_others_info
 msgid "Beneficiaries of the membership"
 msgstr "Bénéficiaires de l'adhésion"
+
+#. module: archijeux_pos_customs
+#: model:ir.ui.menu,name:archijeux_pos_customs.benevole_archijeux_menu_root
+msgid "Bénévole Archijeux"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Bénévoles"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#: model:ir.model.fields,field_description:archijeux_pos_customs.field_pos_session__benevoles
+msgid "Bénévoles qui ont tenu la caisse"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#: model:ir.ui.menu,name:archijeux_pos_customs.benevole_archijeux_calendar
+msgid "Calendrier"
+msgstr ""
 
 #. module: archijeux_pos_customs
 #. odoo-javascript
@@ -156,6 +183,11 @@ msgid "Majors"
 msgstr "Majeurs"
 
 #. module: archijeux_pos_customs
+#: model:ir.ui.menu,name:archijeux_pos_customs.benevole_archijeux_menu_calendar
+msgid "Meetings"
+msgstr "Réunions"
+
+#. module: archijeux_pos_customs
 #. odoo-javascript
 #: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
 #, python-format
@@ -205,6 +237,20 @@ msgstr "Nb de mineurs"
 #: code:addons/archijeux_pos_customs/static/src/js/ClosePosPopup.js:0
 #, python-format
 msgid "Network Error"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Noms"
+msgstr ""
+
+#. module: archijeux_pos_customs
+#. odoo-javascript
+#: code:addons/archijeux_pos_customs/static/src/xml/ClosePosPopup.xml:0
+#, python-format
+msgid "Noms des bénévoles qui ont tenu la caisse"
 msgstr ""
 
 #. module: archijeux_pos_customs
@@ -301,6 +347,11 @@ msgid "Phone"
 msgstr "Téléphone"
 
 #. module: archijeux_pos_customs
+#: model:ir.ui.menu,name:archijeux_pos_customs.benevole_archijeux_menu_pos_config
+msgid "Point of Sale"
+msgstr "Bar/Point de vente"
+
+#. module: archijeux_pos_customs
 #: model:ir.model,name:archijeux_pos_customs.model_pos_session
 msgid "Point of Sale Session"
 msgstr "Session du point de vente"
@@ -317,7 +368,7 @@ msgstr "Je souhaite devenir bénévole"
 #: code:addons/archijeux_pos_customs/models/pos_session.py:0
 #, python-format
 msgid "This session is already closed."
-msgstr ""
+msgstr "Cette session est déjà fermée."
 
 #. module: membership
 #: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__paid

@@ -3,7 +3,7 @@
 
 {
     "name": "archijeux_pos_customs",
-    "version": "16.0.1.0.8",
+    "version": "16.0.1.0.9",
     "author": "Elabore",
     "website": "https://elabore.coop",
     "maintainer": "Élabore",
@@ -17,11 +17,13 @@
         "membership",
         "membership_extension",
         "pos_partner_firstname",
+        "calendar",
     ],
     # always loaded
     "data": [
         "views/pos_session_view.xml",
         "views/res_partner_views.xml",
+        "views/benevole_custom_menu.xml",
     ],
     "assets": {
         "point_of_sale.assets": [
