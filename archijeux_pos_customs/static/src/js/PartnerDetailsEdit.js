@@ -63,6 +63,14 @@ odoo.define("archijeux_pos_customs.PartnerDetailsEdit", function (require) {
                         title: _t("Field City is required"),
                     });
                 }
+
+                if (((!this.props.partner.country_id || this.props.partner.country_id == "") && !processedChanges.country_id) || !processedChanges.country_id)
+                    {
+                    return this.showPopup("ErrorPopup", {
+                        title: _t("Le champ Pays est obligatoire"),
+                    });
+                }
+
                 super.saveChanges();
             }
 

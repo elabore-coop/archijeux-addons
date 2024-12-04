@@ -22,3 +22,11 @@ input.required {
 div#required input{
     background: rgb(210, 210, 255) !important;
 }
+
+select.required {
+    background: rgb(210, 210, 255) !important;
+}
+
+div#required select{
+    background: rgb(210, 210, 255) !important;
+}

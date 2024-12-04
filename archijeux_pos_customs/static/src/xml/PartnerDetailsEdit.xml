@@ -16,6 +16,9 @@
         <xpath expr="//input[@name='firstname']" position="attributes">
             <attribute name="class">detail firstname person required</attribute>
         </xpath>
+        <xpath expr="//select[@name='country_id']" position="attributes">
+            <attribute name="class">detail required</attribute>
+        </xpath>
         
         <xpath expr="//input[@name='mobile']/.." position="after">
             <br />
