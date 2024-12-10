@@ -12,6 +12,15 @@ odoo.define('archijeux_pos_customs.ClosePosPopup', function(require) {
             async closeSession() {
                 if (!this.closeSessionClicked) {
                     this.closeSessionClicked = true;
+                    // benevoles is required
+                    if (!this.state.benevoles) {
+                        await this.showPopup('ErrorPopup', {
+                            title: this.env._t('Erreur'),
+                            body: this.env._t('Le champ "Bénévoles" ne peut pas être vide.'),
+                        });
+                        this.closeSessionClicked = false; // Resets the click to allow a new attempt
+                        return;
+                    }
                     let response;
                     // If there are orders in the db left unsynced, we try to sync.
                     await this.env.pos.push_orders_with_closing_popup();
